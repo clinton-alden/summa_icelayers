@@ -5,7 +5,7 @@ echo "Enter the desired SNOTEL site code (ie. 515:WA): "
 read input1
 echo "Enter the water year: (ie. 2024)"
 read input2
-echo "Enter the output file name (ie. hartspass_WY16): "
+echo "Enter the output file name (ie. hartspass_WY24): "
 read input3
 
 # Provide input to the first Python script
