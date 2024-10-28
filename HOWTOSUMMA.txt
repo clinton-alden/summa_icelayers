@@ -26,7 +26,10 @@ You will be prompted to enter information 3 times. Enter it in the format given 
 STEP3b
 Enter the numeric code for your SNOTEL followed by a colon and the state. 
 For example, the code for Harts Pass, WA is 515 so you would enter '515:WA' and hit enter 
-(without the quotes).
+(without the quotes). You can find the codes and available snotels activate
+https://www.nrcs.usda.gov/resources/data-and-reports/snow-and-water-interactive-map
+
+Click on the site and then click on metadata to get the station ID.
 
 STEP3c
 Enter the water year you want to simulate. The water year runs from October 1 to September 30.
