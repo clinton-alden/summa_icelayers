@@ -1,0 +1,352 @@
+python3: can't open file '/home/cdalden/hrrr_forcings.py': [Errno 2] No such file or directory
+forcing file created, now running summa
+/home/cdalden/summa_setup/model/hrrr_auto_summa_atwater.sh: line 42: forcings/forcing_file_list.txt: No such file or directory
+python3: can't open file '/home/cdalden/hrrr_run_summa.py': [Errno 2] No such file or directory
+summa run complete, check output folder for output file
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots_atwater.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'temp.png' found in the ./plots directory
+mv: cannot stat ‘/home/cdalden/summa_setup/twitter_api/plots/*.png’: No such file or directory
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/plotting/layers.py:72: RuntimeWarning: All-NaN axis encountered
+  norm = plt.Normalize(np.nanmin(var), np.nanmax(var))
+/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/plotting/layers.py:72: RuntimeWarning: All-NaN axis encountered
+  norm = plt.Normalize(np.nanmin(var), np.nanmax(var))
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1845502429011526027'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 13Oct2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/eiU59urf4Y', 'id': '1845502429011526027'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/plotting/layers.py:72: RuntimeWarning: All-NaN axis encountered
+  norm = plt.Normalize(np.nanmin(var), np.nanmax(var))
+/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/plotting/layers.py:72: RuntimeWarning: All-NaN axis encountered
+  norm = plt.Normalize(np.nanmin(var), np.nanmax(var))
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1845769189451235675', 'edit_history_tweet_ids': ['1845769189451235675'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 14Oct2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/zVmib7QRio'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/plotting/layers.py:72: RuntimeWarning: All-NaN axis encountered
+  norm = plt.Normalize(np.nanmin(var), np.nanmax(var))
+/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/plotting/layers.py:72: RuntimeWarning: All-NaN axis encountered
+  norm = plt.Normalize(np.nanmin(var), np.nanmax(var))
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1846131574028620064', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 15Oct2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/3OMyz1PKdc', 'edit_history_tweet_ids': ['1846131574028620064']}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Traceback (most recent call last):
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/home/cdalden/summa_setup/model/settings/.pysumma/params/parameter_trial.nc',), 'a', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '522047a4-93af-46f1-89cc-e6f53b7871b3']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cdalden/summa_setup/model/hrrr_run_summa.py", line 75, in <module>
+    s.run('local', run_suffix=out_name)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 369, in run
+    self.start(run_option, run_suffix, processes, prerun_cmds,
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 318, in start
+    self._write_configuration(name=run_suffix)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 452, in _write_configuration
+    self.trial_params.to_netcdf(settings_path / self.manager['trialParamFile'].value)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/core/dataset.py", line 2041, in to_netcdf
+    return to_netcdf(  # type: ignore  # mypy cannot resolve the overloads:(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/api.py", line 1229, in to_netcdf
+    store = store_open(target, mode, format, group, **kwargs)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 400, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 347, in __init__
+    self.format = self.ds.data_model
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 409, in ds
+    return self._acquire()
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 403, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2330, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 1948, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'/home/cdalden/summa_setup/model/settings/.pysumma/params/parameter_trial.nc'
+summa run complete, check output folder for output file
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots_atwater.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'temp.png' found in the ./plots directory
+mv: cannot stat ‘/home/cdalden/summa_setup/twitter_api/plots/*.png’: No such file or directory
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Traceback (most recent call last):
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/home/cdalden/summa_setup/model/settings/.pysumma/params/parameter_trial.nc',), 'a', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '3a1d6a40-3f2f-4bcf-8950-cf0ff2962209']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cdalden/summa_setup/model/hrrr_run_summa.py", line 75, in <module>
+    s.run('local', run_suffix=out_name)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 369, in run
+    self.start(run_option, run_suffix, processes, prerun_cmds,
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 318, in start
+    self._write_configuration(name=run_suffix)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 452, in _write_configuration
+    self.trial_params.to_netcdf(settings_path / self.manager['trialParamFile'].value)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/core/dataset.py", line 2041, in to_netcdf
+    return to_netcdf(  # type: ignore  # mypy cannot resolve the overloads:(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/api.py", line 1229, in to_netcdf
+    store = store_open(target, mode, format, group, **kwargs)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 400, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 347, in __init__
+    self.format = self.ds.data_model
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 409, in ds
+    return self._acquire()
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 403, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2330, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 1948, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'/home/cdalden/summa_setup/model/settings/.pysumma/params/parameter_trial.nc'
+summa run complete, check output folder for output file
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots_atwater.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'temp.png' found in the ./plots directory
+mv: cannot stat ‘/home/cdalden/summa_setup/twitter_api/plots/*.png’: No such file or directory
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/plotting/layers.py:72: RuntimeWarning: All-NaN axis encountered
+  norm = plt.Normalize(np.nanmin(var), np.nanmax(var))
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1847218878960812136'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 18Oct2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/1q3eSfL4ls', 'id': '1847218878960812136'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1847581121166659619', 'edit_history_tweet_ids': ['1847581121166659619'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 19Oct2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/C69igjAKbm'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1847943511905321201'], 'id': '1847943511905321201', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 20Oct2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/ZmV2KqA0dj'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Traceback (most recent call last):
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/home/cdalden/summa_setup/model/settings/.pysumma/params/parameter_trial.nc',), 'a', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '74fa8465-f130-4631-a29f-60f4bdcaadb0']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cdalden/summa_setup/model/hrrr_run_summa.py", line 75, in <module>
+    s.run('local', run_suffix=out_name)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 369, in run
+    self.start(run_option, run_suffix, processes, prerun_cmds,
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 318, in start
+    self._write_configuration(name=run_suffix)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 452, in _write_configuration
+    self.trial_params.to_netcdf(settings_path / self.manager['trialParamFile'].value)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/core/dataset.py", line 2041, in to_netcdf
+    return to_netcdf(  # type: ignore  # mypy cannot resolve the overloads:(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/api.py", line 1229, in to_netcdf
+    store = store_open(target, mode, format, group, **kwargs)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 400, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 347, in __init__
+    self.format = self.ds.data_model
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 409, in ds
+    return self._acquire()
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 403, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2330, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 1948, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'/home/cdalden/summa_setup/model/settings/.pysumma/params/parameter_trial.nc'
+summa run complete, check output folder for output file
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots_atwater.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'temp.png' found in the ./plots directory
+mv: cannot stat ‘/home/cdalden/summa_setup/twitter_api/plots/*.png’: No such file or directory
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1848668287485575576', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 22Oct2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/Twit9GoatX', 'edit_history_tweet_ids': ['1848668287485575576']}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1849030675837735393', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 23Oct2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/b70AVvoRjq', 'edit_history_tweet_ids': ['1849030675837735393']}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1849393070498025535', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 24Oct2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/vySYbodAKj', 'edit_history_tweet_ids': ['1849393070498025535']}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Traceback (most recent call last):
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/home/cdalden/summa_setup/model/settings/.pysumma/params/parameter_trial.nc',), 'a', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'fbb0499a-3da1-434d-9864-3bb03c03d9b1']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cdalden/summa_setup/model/hrrr_run_summa.py", line 75, in <module>
+    s.run('local', run_suffix=out_name)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 369, in run
+    self.start(run_option, run_suffix, processes, prerun_cmds,
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 318, in start
+    self._write_configuration(name=run_suffix)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 452, in _write_configuration
+    self.trial_params.to_netcdf(settings_path / self.manager['trialParamFile'].value)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/core/dataset.py", line 2041, in to_netcdf
+    return to_netcdf(  # type: ignore  # mypy cannot resolve the overloads:(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/api.py", line 1229, in to_netcdf
+    store = store_open(target, mode, format, group, **kwargs)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 400, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 347, in __init__
+    self.format = self.ds.data_model
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 409, in ds
+    return self._acquire()
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 403, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2330, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 1948, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'/home/cdalden/summa_setup/model/settings/.pysumma/params/parameter_trial.nc'
+summa run complete, check output folder for output file
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots_atwater.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'temp.png' found in the ./plots directory
+mv: cannot stat ‘/home/cdalden/summa_setup/twitter_api/plots/*.png’: No such file or directory
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 26Oct2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/5Zah1aE2jF', 'edit_history_tweet_ids': ['1850117845163909192'], 'id': '1850117845163909192'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 27Oct2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/jMk0ZoMjYY', 'id': '1850480236418511266', 'edit_history_tweet_ids': ['1850480236418511266']}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 28Oct2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/sw18g5yEgl', 'id': '1850842621679374775', 'edit_history_tweet_ids': ['1850842621679374775']}, includes={}, errors=[], meta={})

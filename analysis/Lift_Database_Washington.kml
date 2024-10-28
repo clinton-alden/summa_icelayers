@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Lift Database - Washington</name>
+    <description>https://liftblog.com/washington/</description>
+    <Style id="icon-1411-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1411-rec-winter-skilift.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1411-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/1411-rec-winter-skilift.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1411">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1411-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1411-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Washington</name>
+      <Placemark>
+        <name>49° North</name>
+        <description>https://liftblog.com/49-north-wa/</description>
+        <styleUrl>#icon-1411</styleUrl>
+        <Point>
+          <coordinates>
+            -117.5629161,48.3010972,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Badger Mountain</name>
+        <description>https://liftblog.com/badger-mountain-wa/</description>
+        <styleUrl>#icon-1411</styleUrl>
+        <Point>
+          <coordinates>
+            -120.1306152,47.6129521,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Central Washington State Fair</name>
+        <description>https://liftblog.com/central-washington-state-fair-wa/</description>
+        <styleUrl>#icon-1411</styleUrl>
+        <Point>
+          <coordinates>
+            -120.4864208,46.5890932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crystal Mountain</name>
+        <description>https://liftblog.com/crystal-mountain-wa/</description>
+        <styleUrl>#icon-1411</styleUrl>
+        <Point>
+          <coordinates>
+            -121.4750626,46.9351705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Echo Valley</name>
+        <description>https://liftblog.com/echo-valley-wa/</description>
+        <styleUrl>#icon-1411</styleUrl>
+        <Point>
+          <coordinates>
+            -120.0553575,47.9356998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hurricane Ridge</name>
+        <description>https://liftblog.com/hurricane-ridge-wa/</description>
+        <styleUrl>#icon-1411</styleUrl>
+        <Point>
+          <coordinates>
+            -123.4951352,47.9699846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Loup Loup</name>
+        <description>https://liftblog.com/loup-loup-wa/</description>
+        <styleUrl>#icon-1411</styleUrl>
+        <Point>
+          <coordinates>
+            -119.91097,48.3943616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mission Ridge</name>
+        <description>https://liftblog.com/mission-ridge-wa/</description>
+        <styleUrl>#icon-1411</styleUrl>
+        <Point>
+          <coordinates>
+            -120.3997707,47.2924455,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt. Baker</name>
+        <description>https://liftblog.com/mt-baker-wa/</description>
+        <styleUrl>#icon-1411</styleUrl>
+        <Point>
+          <coordinates>
+            -121.6788787,48.8617327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt. Spokane</name>
+        <description>https://liftblog.com/mt-spokane-wa/</description>
+        <styleUrl>#icon-1411</styleUrl>
+        <Point>
+          <coordinates>
+            -117.096416,47.921382,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sitzmark</name>
+        <description>https://liftblog.com/sitzmark-wa/</description>
+        <styleUrl>#icon-1411</styleUrl>
+        <Point>
+          <coordinates>
+            -119.165055,48.8639216,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ski Bluewood</name>
+        <description>https://liftblog.com/ski-bluewood-wa/</description>
+        <styleUrl>#icon-1411</styleUrl>
+        <Point>
+          <coordinates>
+            -117.8535463,46.0917244,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spokane Falls SkyRide</name>
+        <description>https://liftblog.com/spokane-wa/</description>
+        <styleUrl>#icon-1411</styleUrl>
+        <Point>
+          <coordinates>
+            -117.4195543,47.6617289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stevens Pass</name>
+        <description>https://liftblog.com/stevens-pass-wa/</description>
+        <styleUrl>#icon-1411</styleUrl>
+        <Point>
+          <coordinates>
+            -121.0909968,47.7441734,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Summit at Snoqualmie</name>
+        <description>https://liftblog.com/the-summit-at-snoqualmie-wa/</description>
+        <styleUrl>#icon-1411</styleUrl>
+        <Point>
+          <coordinates>
+            -121.4211049,47.42044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Washington State Fair</name>
+        <description>https://liftblog.com/washington-state-fair-wa/</description>
+        <styleUrl>#icon-1411</styleUrl>
+        <Point>
+          <coordinates>
+            -122.296801,47.18227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>White Pass</name>
+        <description>https://liftblog.com/white-pass-wa/</description>
+        <styleUrl>#icon-1411</styleUrl>
+        <Point>
+          <coordinates>
+            -121.3915844,46.6370506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

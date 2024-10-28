@@ -1,0 +1,433 @@
+python3: can't open file '/home/cdalden/hrrr_forcings.py': [Errno 2] No such file or directory
+forcing file created, now running summa
+/home/cdalden/summa_setup/model/hrrr_auto_summa.sh: line 29: forcings/forcing_file_list.txt: No such file or directory
+python3: can't open file '/home/cdalden/hrrr_run_summa.py': [Errno 2] No such file or directory
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1845337687039016963', 'text': 'SUMMA-HRRR Snow Depth and Density 48hr Forecast initialized 12Oct2024 for Paradise, WA.\n\nThis tool is automated and purely experimental and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/5o6BNQTelU', 'edit_history_tweet_ids': ['1845337687039016963']}, includes={}, errors=[], meta={})
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 12Oct2024 for Paradise, WA.\n\nThis tool is automated and purely experimental and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/fpDahAxgC9', 'id': '1845337695138271312', 'edit_history_tweet_ids': ['1845337695138271312']}, includes={}, errors=[], meta={})
+mv: cannot stat ‘/home/cdalden/summa_setup/twitter_api/plots*.png’: No such file or directory
+python3: can't open file '/home/cdalden/hrrr_forcings.py': [Errno 2] No such file or directory
+forcing file created, now running summa
+/home/cdalden/summa_setup/model/hrrr_auto_summa.sh: line 29: forcings/forcing_file_list.txt: No such file or directory
+python3: can't open file '/home/cdalden/hrrr_run_summa.py': [Errno 2] No such file or directory
+summa run complete, check output folder for output file
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'density.png' found in the ./plots directory
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'temp.png' found in the ./plots directory
+mv: cannot stat ‘/home/cdalden/summa_setup/twitter_api/plots/*.png’: No such file or directory
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+/home/cdalden/summa_setup/model/hrrr_auto_summa.sh: line 29: forcings/forcing_file_list.txt: No such file or directory
+python3: can't open file '/home/cdalden/hrrr_run_summa.py': [Errno 2] No such file or directory
+summa run complete, check output folder for output file
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'density.png' found in the ./plots directory
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'temp.png' found in the ./plots directory
+mv: cannot stat ‘/home/cdalden/summa_setup/twitter_api/plots/*.png’: No such file or directory
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Traceback (most recent call last):
+  File "/home/cdalden/summa_setup/model/hrrr_forcings.py", line 81, in <module>
+    df = snotel_point.get_hourly_data(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/metloom/pointdata/snotel.py", line 170, in get_hourly_data
+    return self._fetch_data_for_variables(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/metloom/pointdata/snotel.py", line 126, in _fetch_data_for_variables
+    data = client.get_data(element_cd=variable.code, **params)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/metloom/pointdata/snotel_client.py", line 202, in get_data
+    data = self._make_request(**params)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/metloom/pointdata/snotel_client.py", line 73, in _make_request
+    client = zeep.Client(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/client.py", line 76, in __init__
+    self.wsdl = Document(wsdl, self.transport, settings=self.settings)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/wsdl/wsdl.py", line 92, in __init__
+    self.load(location)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/wsdl/wsdl.py", line 95, in load
+    document = self._get_xml_document(location)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/wsdl/wsdl.py", line 155, in _get_xml_document
+    return load_external(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/loader.py", line 89, in load_external
+    content = transport.load(url)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/transports.py", line 123, in load
+    content = self._load_remote_data(url)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/transports.py", line 136, in _load_remote_data
+    response.raise_for_status()
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbWebService/services?WSDL
+forcing file created, now running summa
+Traceback (most recent call last):
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/home/cdalden/summa_setup/model/forcings/paradise_14Oct2024.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'b9979437-1b0f-4046-b457-374cbb96e21e']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cdalden/summa_setup/model/hrrr_run_summa.py", line 27, in <module>
+    forcing = xr.open_dataset('./forcings/'+forcing_file.strip(), engine='netcdf4')
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/api.py", line 570, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 602, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 400, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 347, in __init__
+    self.format = self.ds.data_model
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 409, in ds
+    return self._acquire()
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 403, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2330, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 1948, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: b'/home/cdalden/summa_setup/model/forcings/paradise_14Oct2024.nc'
+summa run complete, check output folder for output file
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'density.png' found in the ./plots directory
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'temp.png' found in the ./plots directory
+mv: cannot stat ‘/home/cdalden/summa_setup/twitter_api/plots/*.png’: No such file or directory
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/plotting/layers.py:72: RuntimeWarning: All-NaN axis encountered
+  norm = plt.Normalize(np.nanmin(var), np.nanmax(var))
+/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/plotting/layers.py:72: RuntimeWarning: All-NaN axis encountered
+  norm = plt.Normalize(np.nanmin(var), np.nanmax(var))
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1846129054791225416'], 'id': '1846129054791225416', 'text': 'SUMMA-HRRR Snow Depth and Density 48hr Forecast initialized 15Oct2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/dRYxXphWLa'}, includes={}, errors=[], meta={})
+density or tempResponse(data={'edit_history_tweet_ids': ['1846129062001234412'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 15Oct2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/R6MepI26pN', 'id': '1846129062001234412'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1846491445248864712', 'edit_history_tweet_ids': ['1846491445248864712'], 'text': 'SUMMA-HRRR Snow Depth and Density 48hr Forecast initialized 16Oct2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/CTEXMbAvMj'}, includes={}, errors=[], meta={})
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 16Oct2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/ZSMS7tRohT', 'edit_history_tweet_ids': ['1846491452135891041'], 'id': '1846491452135891041'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Traceback (most recent call last):
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/home/cdalden/summa_setup/model/settings/.pysumma/params/parameter_trial.nc',), 'a', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '908e7a16-506a-44b2-9d28-da14f43bec8f']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cdalden/summa_setup/model/hrrr_run_summa.py", line 75, in <module>
+    s.run('local', run_suffix=out_name)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 369, in run
+    self.start(run_option, run_suffix, processes, prerun_cmds,
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 318, in start
+    self._write_configuration(name=run_suffix)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 452, in _write_configuration
+    self.trial_params.to_netcdf(settings_path / self.manager['trialParamFile'].value)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/core/dataset.py", line 2041, in to_netcdf
+    return to_netcdf(  # type: ignore  # mypy cannot resolve the overloads:(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/api.py", line 1229, in to_netcdf
+    store = store_open(target, mode, format, group, **kwargs)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 400, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 347, in __init__
+    self.format = self.ds.data_model
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 409, in ds
+    return self._acquire()
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 403, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2330, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 1948, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'/home/cdalden/summa_setup/model/settings/.pysumma/params/parameter_trial.nc'
+summa run complete, check output folder for output file
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'density.png' found in the ./plots directory
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'temp.png' found in the ./plots directory
+mv: cannot stat ‘/home/cdalden/summa_setup/twitter_api/plots/*.png’: No such file or directory
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1847216218492780834', 'edit_history_tweet_ids': ['1847216218492780834'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 18Oct2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/Ehz7ElCcup'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1847578608703066443'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 19Oct2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/ziKK3PcfoU', 'id': '1847578608703066443'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Traceback (most recent call last):
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/home/cdalden/summa_setup/model/settings/.pysumma/params/parameter_trial.nc',), 'a', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'a9b75d26-9e1c-4a09-8af9-0b627bede785']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cdalden/summa_setup/model/hrrr_run_summa.py", line 75, in <module>
+    s.run('local', run_suffix=out_name)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 369, in run
+    self.start(run_option, run_suffix, processes, prerun_cmds,
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 318, in start
+    self._write_configuration(name=run_suffix)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 452, in _write_configuration
+    self.trial_params.to_netcdf(settings_path / self.manager['trialParamFile'].value)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/core/dataset.py", line 2041, in to_netcdf
+    return to_netcdf(  # type: ignore  # mypy cannot resolve the overloads:(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/api.py", line 1229, in to_netcdf
+    store = store_open(target, mode, format, group, **kwargs)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 400, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 347, in __init__
+    self.format = self.ds.data_model
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 409, in ds
+    return self._acquire()
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 403, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2330, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 1948, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'/home/cdalden/summa_setup/model/settings/.pysumma/params/parameter_trial.nc'
+summa run complete, check output folder for output file
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'temp.png' found in the ./plots directory
+mv: cannot stat ‘/home/cdalden/summa_setup/twitter_api/plots/*.png’: No such file or directory
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Traceback (most recent call last):
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/home/cdalden/summa_setup/model/settings/.pysumma/params/parameter_trial.nc',), 'a', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '2419dc74-07f0-4b99-89fa-b7bc29af45e5']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cdalden/summa_setup/model/hrrr_run_summa.py", line 75, in <module>
+    s.run('local', run_suffix=out_name)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 369, in run
+    self.start(run_option, run_suffix, processes, prerun_cmds,
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 318, in start
+    self._write_configuration(name=run_suffix)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 452, in _write_configuration
+    self.trial_params.to_netcdf(settings_path / self.manager['trialParamFile'].value)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/core/dataset.py", line 2041, in to_netcdf
+    return to_netcdf(  # type: ignore  # mypy cannot resolve the overloads:(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/api.py", line 1229, in to_netcdf
+    store = store_open(target, mode, format, group, **kwargs)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 400, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 347, in __init__
+    self.format = self.ds.data_model
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 409, in ds
+    return self._acquire()
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 403, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2330, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 1948, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'/home/cdalden/summa_setup/model/settings/.pysumma/params/parameter_trial.nc'
+summa run complete, check output folder for output file
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'temp.png' found in the ./plots directory
+mv: cannot stat ‘/home/cdalden/summa_setup/twitter_api/plots/*.png’: No such file or directory
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1848665780357144920'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 22Oct2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/aYFf13AUgT', 'id': '1848665780357144920'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1849028163843792990'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 23Oct2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/2UP69Nk2ua', 'id': '1849028163843792990'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1849390552208519498', 'edit_history_tweet_ids': ['1849390552208519498'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 24Oct2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/XYrdaLGUrm'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Traceback (most recent call last):
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/home/cdalden/summa_setup/model/settings/.pysumma/params/parameter_trial.nc',), 'a', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '38e9f8f7-5f0c-4374-acb8-faa45a805330']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cdalden/summa_setup/model/hrrr_run_summa.py", line 75, in <module>
+    s.run('local', run_suffix=out_name)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 369, in run
+    self.start(run_option, run_suffix, processes, prerun_cmds,
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 318, in start
+    self._write_configuration(name=run_suffix)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 452, in _write_configuration
+    self.trial_params.to_netcdf(settings_path / self.manager['trialParamFile'].value)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/core/dataset.py", line 2041, in to_netcdf
+    return to_netcdf(  # type: ignore  # mypy cannot resolve the overloads:(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/api.py", line 1229, in to_netcdf
+    store = store_open(target, mode, format, group, **kwargs)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 400, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 347, in __init__
+    self.format = self.ds.data_model
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 409, in ds
+    return self._acquire()
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 403, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2330, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 1948, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'/home/cdalden/summa_setup/model/settings/.pysumma/params/parameter_trial.nc'
+summa run complete, check output folder for output file
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'temp.png' found in the ./plots directory
+mv: cannot stat ‘/home/cdalden/summa_setup/twitter_api/plots/*.png’: No such file or directory
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 26Oct2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/2G8aMONmHV', 'id': '1850115331811152364', 'edit_history_tweet_ids': ['1850115331811152364']}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 27Oct2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/susSF70hwm', 'id': '1850477725708149141', 'edit_history_tweet_ids': ['1850477725708149141']}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PDT'
+Timezone difference to GMT+0 -25200 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 28Oct2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/th68eeALth', 'id': '1850840107609440256', 'edit_history_tweet_ids': ['1850840107609440256']}, includes={}, errors=[], meta={})

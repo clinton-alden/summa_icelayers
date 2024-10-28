@@ -1,0 +1,52 @@
+909 mean winter temp: 31.273380047794568
+974 mean winter temp: 30.096918447186276
+791 mean winter temp: 26.381408596582077
+728 mean winter temp: 21.35966781587775
+711 mean winter temp: 24.16816400072071
+515 mean winter temp: 21.135669891998234
+376 mean winter temp: 22.26597904253133
+707 mean winter temp: 27.53453402780767
+824 mean winter temp: 26.738336957605984
+692 mean winter temp: 24.543859336838185
+642 mean winter temp: 26.4168114882731
+841 mean winter temp: 27.729741558703093
+672 mean winter temp: 29.21471163928696
+651 mean winter temp: 30.16544574689597
+712 mean winter temp: 30.988630325240496
+526 mean winter temp: 29.335639582988584
+815 mean winter temp: 31.55522912712303
+388 mean winter temp: 30.621441099476442
+341 mean winter temp: 32.45433404940924
+483 mean winter temp: 30.37982649462177
+523 mean winter temp: 26.150019121936143
+464 mean winter temp: 25.471617706237424
+653 mean winter temp: 24.20279357406881
+738 mean winter temp: 22.42780680479523
+Traceback (most recent call last):
+  File "/home/cdalden/summa_setup/analysis/./snotel_temps.py", line 34, in <module>
+    df = snotel_point.get_hourly_data(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/metloom/pointdata/snotel.py", line 170, in get_hourly_data
+    return self._fetch_data_for_variables(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/metloom/pointdata/snotel.py", line 126, in _fetch_data_for_variables
+    data = client.get_data(element_cd=variable.code, **params)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/metloom/pointdata/snotel_client.py", line 202, in get_data
+    data = self._make_request(**params)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/metloom/pointdata/snotel_client.py", line 73, in _make_request
+    client = zeep.Client(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/client.py", line 76, in __init__
+    self.wsdl = Document(wsdl, self.transport, settings=self.settings)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/wsdl/wsdl.py", line 92, in __init__
+    self.load(location)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/wsdl/wsdl.py", line 95, in load
+    document = self._get_xml_document(location)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/wsdl/wsdl.py", line 155, in _get_xml_document
+    return load_external(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/loader.py", line 89, in load_external
+    content = transport.load(url)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/transports.py", line 123, in load
+    content = self._load_remote_data(url)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/transports.py", line 136, in _load_remote_data
+    response.raise_for_status()
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbWebService/services?WSDL
