@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Prompt for inputs
-echo "Enter the desired SNOTEL site code (ie. 1107:WA): "
+echo "Enter the desired SNOTEL site code (ie. 515:WA): "
 read input1
-echo "Enter the water year: "
+echo "Enter the water year: (ie. 2024)"
 read input2
-echo "Enter the output file name (ie. buck_WY16): "
+echo "Enter the output file name (ie. hartspass_WY16): "
 read input3
 
 # Provide input to the first Python script
