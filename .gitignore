@@ -2,3 +2,6 @@
 *.png
 *.jpg
 *.csv
+
+!/home/cdalden/summa_setup/model/summa_forcing_template.nc
+!/home/cdalden/summa_setup/model/params
