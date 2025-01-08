@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Read the CSV file line by line, skipping the first line
-tail -n +2 /home/cdalden/summa_setup/analysis/sntl_list_ski.csv | while IFS=, read -r _ _ state site_name _ _ _ _ _ _ _ site_code _
+tail -n +2 /home/cdalden/summa_setup/analysis/sntl_list_ski_temps.csv | while IFS=, read -r _ _ state site_name _ _ _ _ _ _ _ site_code _ _
 do
     # Define your sets of inputs
     site_codes=($(for i in $(seq 2000 2024); do echo "$site_code:$state"; done))

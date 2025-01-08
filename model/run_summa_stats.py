@@ -61,7 +61,7 @@ s.decisions['snowDenNew'] = 'hedAndPom'
 s.decisions['compaction'] = 'consettl'
 s.decisions['astability'] = 'mahrtexp'
 
-s.global_hru_params['tempCritRain'] = 274.15
+s.global_hru_params['tempCritRain'] = 273.15
 s.global_hru_params['newSnowDenMin'] = 50
 s.global_hru_params['densScalGrowth'] = 0.10
 s.global_hru_params['densScalOvrbdn'] = 0.025
@@ -131,24 +131,26 @@ average = temp.mean(dim='midToto')
 filtered_var = var.where(average < 273.05)
 
 # filter for layers within top 1m
-max_depth = summa.isel(hru=0)['iLayerHeight'].max(dim='ifcToto') - 1
-filtered_var = filtered_var.where(summa.isel(hru=0)['iLayerHeight'] > max_depth)
+# max_depth = summa.isel(hru=0)['iLayerHeight'].max(dim='ifcToto') - 1
+# filtered_var = filtered_var.where(summa.isel(hru=0)['iLayerHeight'] > max_depth)
 
 # Calculate the vertical derivative
 derivative = filtered_var.diff(dim='midToto')
 
-# Initialize an empty list to store the counts
+# Initialize the list to store counts
 counts = []
 
-# Loop over the 'time' dimension
-for t in var.time.values:
+# Loop over the 'time' dimension within the specified range
+for t in var.time.values[1464:4393]:
     # Select the derivative for the current timestep
     derivative_t = derivative.sel(time=t)
 
+    # Calculate the running average over 3 layers
+    running_avg = derivative_t.rolling(midToto=3, center=False).sum()
+
     # Filter values that are greater than or equal to 0.2 or less than or equal to -0.2
-    threshold = 0.05
-    # filtered = derivative_t.where((derivative_t >= threshold) | (derivative_t <= threshold))
-    filtered = derivative_t.where(derivative_t >= threshold)
+    threshold = 0.15
+    filtered = running_avg.where((running_avg >= threshold) | (running_avg <= -threshold))
 
     # Count the number of layers with at least one such value
     count = np.isfinite(filtered).sum().values
@@ -159,11 +161,11 @@ for t in var.time.values:
 # Convert the list to a numpy array
 counts = np.array(counts)
 
-crust_days = counts.sum()/24
+crust_days = counts.sum() / 24
 mean_crusts = counts.mean()
 
 # binary crust metric
-crusts_binary = np.where(counts > 0, 1, 0).sum()
+crusts_binary = np.where(counts > 0, 1, 0)
 
 # Calculate '-summa['iLayerHeight'].isel(ifcToto=nSnow)'
 nSnow = summa['nSnow'].values[0] # assuming 'nSnow' is a variable in 'summa'
@@ -176,7 +178,7 @@ snow_on = (hs > 0).sum()
 isothermal_days = ((hs > 0) & (average > 273.15)).sum().item()
 
 # Append netcdf
-ds = xr.open_dataset('/home/cdalden/summa_setup/analysis/crust_stats_ski_snotels.nc')
+ds = xr.open_dataset('/home/cdalden/summa_setup/analysis/crust_stats_ski_snotels_vDec9.nc')
 
 # Split the string at the underscores
 parts = out_name.split("_")
@@ -225,4 +227,4 @@ ds['isothermal_days'].loc[dict(time=date, model_run=model_run, site=site)] = iso
 
 temp_file = '/home/cdalden/summa_setup/crust_stats_ski_snotels_temp.nc'
 ds.to_netcdf(temp_file, mode='w')
-os.rename(temp_file, '/home/cdalden/summa_setup/analysis/crust_stats_ski_snotels.nc')
+os.rename(temp_file, '/home/cdalden/summa_setup/analysis/crust_stats_ski_snotels_vDec9.nc')
