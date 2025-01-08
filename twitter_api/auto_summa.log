@@ -611,3 +611,273 @@ forcing file created, now running summa
 Model status: Success
 summa run complete, check output folder for output file
 density or tempResponse(data={'id': '1857378214118871427', 'edit_history_tweet_ids': ['1857378214118871427'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 15Nov2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/pHj9gVrzvd'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1857740604329058325'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 16Nov2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/dC25npqwQB', 'id': '1857740604329058325'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1858103002307109319'], 'id': '1858103002307109319', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 17Nov2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/jiCdH6Aajn'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 18Nov2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/fMYYlyV3gi', 'edit_history_tweet_ids': ['1858465394010509765'], 'id': '1858465394010509765'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1858827784824779188', 'edit_history_tweet_ids': ['1858827784824779188'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 19Nov2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/x0ColTscTt'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1859190180663689533', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 20Nov2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/zUgPOdvXS1', 'edit_history_tweet_ids': ['1859190180663689533']}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 21Nov2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/wnsH6b9n2H', 'edit_history_tweet_ids': ['1859552561633820700'], 'id': '1859552561633820700'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1859915110351016112'], 'id': '1859915110351016112', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 22Nov2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/3NEAxlcvF4'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1860277340628251022'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 23Nov2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/9VWg9jrIg2', 'id': '1860277340628251022'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1860639737981338103'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 24Nov2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/2SXrmHk9cS', 'id': '1860639737981338103'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1861002119903588516'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 25Nov2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/Ix66LTtKx6', 'id': '1861002119903588516'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 26Nov2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/3ZNEQRHHxa', 'edit_history_tweet_ids': ['1861364511493759277'], 'id': '1861364511493759277'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 27Nov2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/ZB7QjLc9n0', 'id': '1861726902609936866', 'edit_history_tweet_ids': ['1861726902609936866']}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Error
+Traceback (most recent call last):
+  File "/home/cdalden/summa_setup/model/hrrr_run_summa.py", line 82, in <module>
+    out = s.output
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 485, in output
+    raise RuntimeError('There was an error during the simulation!'
+RuntimeError: There was an error during the simulation! Print the `stdout` and `stderr` for more information.
+summa run complete, check output folder for output file
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'temp.png' found in the ./plots directory
+mv: cannot stat ‘/home/cdalden/summa_setup/twitter_api/plots/*.png’: No such file or directory
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1862451686746595635'], 'id': '1862451686746595635', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 29Nov2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/C3j1lcu2ag'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1862814073865572549'], 'id': '1862814073865572549', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 30Nov2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/2ar25uYLAP'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1863176459344609340', 'edit_history_tweet_ids': ['1863176459344609340'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 01Dec2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/tI8eyVmx7L'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1863538850171335167', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 02Dec2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/ddUNPGeFoe', 'edit_history_tweet_ids': ['1863538850171335167']}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Error
+Traceback (most recent call last):
+  File "/home/cdalden/summa_setup/model/hrrr_run_summa.py", line 82, in <module>
+    out = s.output
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 485, in output
+    raise RuntimeError('There was an error during the simulation!'
+RuntimeError: There was an error during the simulation! Print the `stdout` and `stderr` for more information.
+summa run complete, check output folder for output file
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'temp.png' found in the ./plots directory
+mv: cannot stat ‘/home/cdalden/summa_setup/twitter_api/plots/*.png’: No such file or directory
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Error
+Traceback (most recent call last):
+  File "/home/cdalden/summa_setup/model/hrrr_run_summa.py", line 82, in <module>
+    out = s.output
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/pysumma/simulation.py", line 485, in output
+    raise RuntimeError('There was an error during the simulation!'
+RuntimeError: There was an error during the simulation! Print the `stdout` and `stderr` for more information.
+summa run complete, check output folder for output file
+density or tempTraceback (most recent call last):
+  File "/home/cdalden/summa_setup/twitter_api/tweet_plots.py", line 62, in <module>
+    raise FileNotFoundError(f"No image ending with '{var}.png' found in the ./plots directory")
+FileNotFoundError: No image ending with 'temp.png' found in the ./plots directory
+mv: cannot stat ‘/home/cdalden/summa_setup/twitter_api/plots/*.png’: No such file or directory
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1864626020160294983', 'edit_history_tweet_ids': ['1864626020160294983'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 05Dec2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/wkH0C0S8Cb'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 06Dec2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/kc8mB3u9N1', 'id': '1864988412182421704', 'edit_history_tweet_ids': ['1864988412182421704']}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1865350802354962470', 'edit_history_tweet_ids': ['1865350802354962470'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 07Dec2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/yF9kluFMs6'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1865713197631816173'], 'id': '1865713197631816173', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 08Dec2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/Qa6wrO56pp'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 46.78917694091797°N -121.75633239746094°E
+Elevation 1562.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 09Dec2024 for Paradise, WA.\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/14fwL1vEoa for the avalanche forecast. https://t.co/jmZ6sFY2XI', 'id': '1866075578698526828', 'edit_history_tweet_ids': ['1866075578698526828']}, includes={}, errors=[], meta={})

@@ -530,3 +530,243 @@ forcing file created, now running summa
 Model status: Success
 summa run complete, check output folder for output file
 density or tempResponse(data={'id': '1857380723965215128', 'edit_history_tweet_ids': ['1857380723965215128'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 15Nov2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/31CeJtdaIO'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1857743115152666948'], 'id': '1857743115152666948', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 16Nov2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/MprORH5mZL'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1858105503349616864'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 17Nov2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/dmdai95ddA', 'id': '1858105503349616864'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1858467893807370610'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 18Nov2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/gcjBjiZruG', 'id': '1858467893807370610'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 19Nov2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/6ioQJmbT67', 'edit_history_tweet_ids': ['1858830286852911492'], 'id': '1858830286852911492'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1859192671782494242', 'edit_history_tweet_ids': ['1859192671782494242'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 20Nov2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/cSmSXIZZ2a'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 21Nov2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/mOkxh7sfnB', 'id': '1859555055575368105', 'edit_history_tweet_ids': ['1859555055575368105']}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1859917452513259722', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 22Nov2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/q6wWg7xxBc', 'edit_history_tweet_ids': ['1859917452513259722']}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1860279837157642646', 'edit_history_tweet_ids': ['1860279837157642646'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 23Nov2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/wh4CMUyoYG'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1860642225182675422'], 'id': '1860642225182675422', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 24Nov2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/Hntv0suavQ'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1861004616529596652'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 25Nov2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/tDByhOH8Nn', 'id': '1861004616529596652'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1861367003862442052', 'edit_history_tweet_ids': ['1861367003862442052'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 26Nov2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/zybjoF5f3y'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1861729396224328178'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 27Nov2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/RthFgfewQm', 'id': '1861729396224328178'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1862091785570488622'], 'id': '1862091785570488622', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 28Nov2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/z0iznfb9RV'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1862454174719545497'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 29Nov2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/0NATc7CYyk', 'id': '1862454174719545497'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1862816562375430263'], 'id': '1862816562375430263', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 30Nov2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/WE7hRp11k9'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1863178954221420993'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 01Dec2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/AN3wMDjS3J', 'id': '1863178954221420993'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1863541338127601674'], 'id': '1863541338127601674', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 02Dec2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/3kRH10f0gR'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1863903731596828676'], 'id': '1863903731596828676', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 03Dec2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/QrDVp2OUZY'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1864266134373175610'], 'id': '1864266134373175610', 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 04Dec2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/lKa5kA5Ei2'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'edit_history_tweet_ids': ['1864628507869106372'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 05Dec2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/KEyA7h8TAr', 'id': '1864628507869106372'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 06Dec2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/Oezjcd0t0T', 'id': '1864990897492103209', 'edit_history_tweet_ids': ['1864990897492103209']}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 07Dec2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/8mGZaadXmo', 'edit_history_tweet_ids': ['1865353287253524826'], 'id': '1865353287253524826'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 08Dec2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/XQFwKUIbRf', 'edit_history_tweet_ids': ['1865715674729099604'], 'id': '1865715674729099604'}, includes={}, errors=[], meta={})
+Enter the desired SNOTEL site code (ie. 1107:WA): Enter the output file name (ie. buck_WY16): ********** generating the forcing file, please be patient **********
+********** should take ~3 minutes to run **********
+Coordinates 40.61552810668945°N -111.62660217285156°E
+Elevation 2684.0 m asl
+Timezone b'America/Los_Angeles' b'PST'
+Timezone difference to GMT+0 -28800 s
+forcing file created, now running summa
+Model status: Success
+summa run complete, check output folder for output file
+density or tempResponse(data={'id': '1866078062384992558', 'edit_history_tweet_ids': ['1866078062384992558'], 'text': 'SUMMA-HRRR Snow Depth and Temperature 48hr Forecast initialized 09Dec2024 for Alta, UT (Atwater).\n\nThis tool is automated, experimental, and should not be relied on for decision making. Please refer to https://t.co/odY1QLwZ5F for the avalanche forecast. https://t.co/2kku99NBc5'}, includes={}, errors=[], meta={})
