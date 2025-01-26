@@ -165,7 +165,7 @@ crust_days = counts.sum() / 24
 mean_crusts = counts.mean()
 
 # binary crust metric
-crusts_binary = np.where(counts > 0, 1, 0)
+crusts_binary = np.where(counts > 0, 1, 0).sum()
 
 # Calculate '-summa['iLayerHeight'].isel(ifcToto=nSnow)'
 nSnow = summa['nSnow'].values[0] # assuming 'nSnow' is a variable in 'summa'
@@ -178,7 +178,7 @@ snow_on = (hs > 0).sum()
 isothermal_days = ((hs > 0) & (average > 273.15)).sum().item()
 
 # Append netcdf
-ds = xr.open_dataset('/home/cdalden/summa_setup/analysis/crust_stats_ski_snotels_vDec9.nc')
+ds = xr.open_dataset('/home/cdalden/summa_setup/analysis/crust_stats_ski_snotels_vJan8.nc')
 
 # Split the string at the underscores
 parts = out_name.split("_")
@@ -227,4 +227,4 @@ ds['isothermal_days'].loc[dict(time=date, model_run=model_run, site=site)] = iso
 
 temp_file = '/home/cdalden/summa_setup/crust_stats_ski_snotels_temp.nc'
 ds.to_netcdf(temp_file, mode='w')
-os.rename(temp_file, '/home/cdalden/summa_setup/analysis/crust_stats_ski_snotels_vDec9.nc')
+os.rename(temp_file, '/home/cdalden/summa_setup/analysis/crust_stats_ski_snotels_vJan8.nc')

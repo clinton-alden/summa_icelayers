@@ -38,7 +38,7 @@ run_name = input("Enter the run name: ")
 # print('**********')
 print(run_name)
 print('**********')
-summa = xr.open_dataset('/home/cdalden/summa_setup/model/output/harts_pass/output_'+run_name+'_timestep.nc')
+summa = xr.open_dataset('/home/cdalden/summa_setup/model/output/output_'+run_name+'_timestep.nc')
 
 depth = summa.isel(hru=0)['iLayerHeight']
 var = summa.isel(hru=0)['mLayerVolFracWat']
