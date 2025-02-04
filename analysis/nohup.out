@@ -50,3 +50,39 @@ Traceback (most recent call last):
   File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/requests/models.py", line 1024, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbWebService/services?WSDL
+Traceback (most recent call last):
+  File "/home/cdalden/summa_setup/analysis/rain_snow_frac.py", line 25, in <module>
+    df = snotel_point.get_hourly_data(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/metloom/pointdata/snotel.py", line 170, in get_hourly_data
+    return self._fetch_data_for_variables(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/metloom/pointdata/snotel.py", line 131, in _fetch_data_for_variables
+    return self._snotel_response_to_df(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/metloom/pointdata/snotel.py", line 79, in _snotel_response_to_df
+    transformed, geometry=[self.metadata] * len(transformed)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/metloom/pointdata/base.py", line 206, in metadata
+    self._metadata = self._get_metadata()
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/metloom/pointdata/snotel.py", line 224, in _get_metadata
+    all_metadata = self._get_all_metadata()
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/metloom/pointdata/snotel.py", line 198, in _get_all_metadata
+    self._raw_metadata = client.get_data()
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/metloom/pointdata/snotel_client.py", line 103, in get_data
+    data = self._make_request(**self.params)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/metloom/pointdata/snotel_client.py", line 73, in _make_request
+    client = zeep.Client(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/client.py", line 76, in __init__
+    self.wsdl = Document(wsdl, self.transport, settings=self.settings)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/wsdl/wsdl.py", line 92, in __init__
+    self.load(location)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/wsdl/wsdl.py", line 95, in load
+    document = self._get_xml_document(location)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/wsdl/wsdl.py", line 155, in _get_xml_document
+    return load_external(
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/loader.py", line 89, in load_external
+    content = transport.load(url)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/transports.py", line 123, in load
+    content = self._load_remote_data(url)
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/zeep/transports.py", line 136, in _load_remote_data
+    response.raise_for_status()
+  File "/home/cdalden/miniforge3/envs/pysumma/lib/python3.9/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbWebService/services?WSDL
