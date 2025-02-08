@@ -73,7 +73,7 @@ for index, row in sntls.iterrows():
         print(f"Total rain: {rain}")
         print(f"Fraction of precip that is snow: {snow_frac:.2f}%\n")
     
-    sntls.to_csv('/home/cdalden/summa_setup/analysis/sntl_list_ski_temps_snowfrac.csv')
+    sntls.to_csv('/home/cdalden/summa_setup/analysis/sntl_list_ski_temps_snowfrac.csv', index=False)
 
 # %%
 
