@@ -9,7 +9,7 @@ echo "Enter the output file name (ie. hartspass_WY24): "
 read input3
 
 # Provide input to the first Python script
-echo -e "$input1\n$input2\n$input3" | python3 snotel_to_pysumma_current.py
+echo -e "$input1\n$input2\n$input3" | python3 snotel_to_pysumma_shortWY.py
 
 echo "forcing file created, now running summa"
 
