@@ -163,6 +163,12 @@ df.index.name = 'time'
 # Covert air temperature to celsius
 df['airtemp'] = (df['airtemp'] - 32) * 5.0/9.0
 
+# Simulated warming
+df['airtemp'] = df['airtemp'] + 4 #C
+
+# Currier snotel temp correction
+df['airtemp'] = (1.03*(df['airtemp']-0.9))
+
 # Convert precipitation to mm
 df['accppt'] = df['accppt'] * 25.4
 
@@ -345,11 +351,8 @@ data['pptrate'] = data['pptrate']/3600
 # Used to calculate specific humidity and longwave radiation
 ff.fill_rel_hum(data)
 
-# Convert airtemp to Kelvin
-data['airtemp'] = (1.03*(data['airtemp']-0.9)) + 273.15 # Currier snotel temp correction
-
-# Simulated warming
-data['airtemp'] = data['airtemp'] + 4 #K
+# Convert air temperature to Kelvin
+data['airtemp'] = data['airtemp'] + 273.15
 
 # Generate pressure from hypsometric equation and site elevation (1981m)
 ff.fill_pressure(data, elev)

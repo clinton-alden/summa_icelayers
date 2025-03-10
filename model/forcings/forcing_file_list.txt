@@ -1,1 +1,1 @@
-'wellscreek_WY25.nc'
+'olallie_WY14_WY24.nc'

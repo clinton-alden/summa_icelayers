@@ -227,4 +227,4 @@ ds['isothermal_days'].loc[dict(time=date, model_run=model_run, site=site)] = iso
 
 temp_file = '/home/cdalden/summa_setup/crust_stats_ski_snotels_temp.nc'
 ds.to_netcdf(temp_file, mode='w')
-os.rename(temp_file, '/home/cdalden/summa_setup/analysis/crust_stats_ski_snotels_vJan8.nc')
+os.rename(temp_file, '/home/cdalden/summa_setup/analysis/crust_stats_ski_snotels_vFeb20.nc')
