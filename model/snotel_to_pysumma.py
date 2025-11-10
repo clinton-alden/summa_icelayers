@@ -73,7 +73,6 @@ from pytz import UTC
 
 from utils import lw_clr
 from utils import forcing_filler as ff
-from utils import summa_check as sc
 
 # %%
 #  Create needed directories to store metsim run and snotel CSVs
