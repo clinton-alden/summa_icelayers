@@ -1,18 +1,41 @@
 # %% [markdown]
 # # SNOTEL Processing for pySUMMA Modeling
 # 
-# This notebook pulls SNOTEL data via metloom to create a meteorological forcing file for pysumma. 7 input meteorological variables are needed at hourly (if using SNOTEL data, hourly is highest temporal resolution possible) timesteps: air temperature, precipitation, incoming shortwave radiation, incoming longwave radiation, air pressure, relative humidity, and wind speed. 
+# This notebook pulls SNOTEL data via metloom to create a meteorological forcing file for pysumma. 
+# 7 input meteorological variables are needed at hourly (if using SNOTEL data, hourly is highest temporal 
+# resolution possible) timesteps: air temperature, precipitation, incoming shortwave radiation, incoming 
+# longwave radiation, air pressure, relative humidity, and wind speed. 
 # 
-# Temperature used is observed from SNOTEL with the *Currier et al. (2017)* voltage issue correction. Precipitation used is observed from SNOTEL - be wary of undercatch for upper elevation SNOTEL sites in windier locations, check to ensure accumulated precip > max SWE. Incoming shortwave radiation is empirically derived using latitude, elevation, and time of year to calculate clear sky radiation and the diurnal temperature range and precipitation to calculate the cloud correction factor with the MetSim package. Incoming longwave radiation is empirically derived from air temperature and relative humidity using the *Dilley and O'Brien (1998)* method. The empirical calculation method for incoming longwave radiation can be modified if desired - the `lw_clr.py` script in `summa_work/utils` provides a number of different methods to choose from. Relative humidity is empirically derived assuming the running 24 hour minimum temperature as the dewpoint for each timestep from *Running et al. (2017)*. Wind speed is set at 2 meters per second for every timestep as this is an incredibly difficult quantity to observe in mountainous regions during winter due to riming and other issues (*TODO - citation needed for this choice*). Air pressure is empirically derived using the hypsometric equation and scale height of the atmosphere for midlatitudes.
+# Temperature used is observed from SNOTEL with the Currier et al. (2017) voltage issue correction. 
+# Precipitation used is observed from SNOTEL - be wary of undercatch for upper elevation SNOTEL sites in 
+# windier locations, check to ensure accumulated precip > max SWE. Incoming shortwave radiation is empirically
+#  derived using latitude, elevation, and time of year to calculate clear sky radiation and the diurnal 
+# temperature range and precipitation to calculate the cloud correction factor with the MetSim package. 
+# Incoming longwave radiation is empirically derived from air temperature and relative humidity using the 
+# Dilley and O'Brien (1998) method. The empirical calculation method for incoming longwave radiation can 
+# be modified if desired - the `lw_clr.py` script in `summa_work/utils` provides a number of different methods 
+# to choose from. Relative humidity is empirically derived assuming the running 24 hour minimum temperature 
+# as the dewpoint for each timestep from Running et al. (2017). Wind speed is set at 2 meters per second 
+# for every timestep as this is an incredibly difficult quantity to observe in mountainous regions during 
+# winter due to riming and other issues. Air pressure is empirically derived using the hypsometric equation 
+# and scale height of the atmosphere for midlatitudes.
 # 
-# The data is first pulled from the NRCS API using metloom. The data is then preprocessed to fill any missing timesteps. MetSim is then used to generate the incoming shortwave radiation. Finally, the remaining meteorological variables are calculated and converted to correct units before saving as a netcdf output file conforming to pysumma naming and formatting conventions.
+# The data is first pulled from the NRCS API using metloom. The data is then preprocessed to fill any 
+# missing timesteps. MetSim is then used to generate the incoming shortwave radiation. Finally, the 
+# remaining meteorological variables are calculated and converted to correct units before saving as a 
+# netcdf output file conforming to pysumma naming and formatting conventions.
 # 
 # ### How to Use
-# 1. In the cell below, edit desired water year in cell below
-# 2. Edit SNOTEL station ID, can look up on NRCS National Weather and Climate Center's Interactive Map
-# 3. Edit outgoing file name - no required format, whatever you choose
-# 4. Edit outgoing path where you would like the met forcing file for pysumma runs
-# 6. Run all! 
+# 1. First, make sure necessary packages are installed (metloom, metsim, etc.)
+#   - You can install these by opening a terminal and typing `pip install metloom`
+# 2. You will also need the template forcing file (summa_forcing_template.nc) and my pysumma processing functions 
+#    from the utils folder, make sure these are copied into the same directory as this script.
+# 3. Run this script from a terminal window like this `python snotel_to_pysumma.py`
+# 4. Enter the SNOTEL station ID number and state when prompted (ie. `1107:WA`)
+#   - You can look up your favorite SNOTEL on NRCS National Weather and Climate Center's Interactive Map
+# 5. Enter the water year you want to run the model for when prompted (ie. `2016`)
+# 6. Enter forcing output file name - no required format, whatever you choose (ie. `buckinghorse_WY16`)
+
 
 # %% [markdown]
 # **Clinton Alden**
@@ -23,8 +46,8 @@
 
 # %%
 snotel = input('Enter the desired SNOTEL site code (ie. 1107:WA): ') + ':SNTL'
-water_year = int(input('Enter the water year: '))
-out_name = input('Enter the output file name (ie. buck_WY16): ')
+water_year = int(input('Enter the water year (ie. 2016): '))
+out_name = input('Enter the output file name (ie. buckinghorse_WY16): ')
 # out_path = input('Enter the output path (ie. ../model/forcings/): ')
 out_path = './forcings/'
 
@@ -38,26 +61,16 @@ import warnings
 # pysumma has many depreciated packages, this ignores their warnings
 warnings.filterwarnings("ignore", category=UserWarning, module='scipy')
 
-from datetime import datetime, timedelta
+from datetime import datetime
 from metloom.pointdata import SnotelPointData
 import pandas as pd
-import geopandas as gpd
 import xarray as xr
 from metsim import MetSim
-import matplotlib.pyplot as plt
-import matplotlib
 import numpy as np
-from metpy.units import units
-import metpy.calc as mpcalc
-import math
-import scipy
 import os
 import shutil
 from pytz import UTC
 
-
-import sys
-# sys.path.append('/Users/clintonalden/Documents/Research/summa_work/')
 from utils import lw_clr
 from utils import forcing_filler as ff
 from utils import summa_check as sc
@@ -82,7 +95,7 @@ start_year = water_year - 1
 start_year_str = str(start_year)
 
 start_date = datetime(start_year, 7, 3)
-end_date = datetime(water_year, 2, 6)
+end_date = datetime(water_year, 9, 30)
 
 spinstart = pd.to_datetime(start_year_str + '-07-03').tz_localize('UTC')
 spinend = pd.to_datetime(start_year_str + '-09-30').tz_localize('UTC')
@@ -90,7 +103,7 @@ spinend = pd.to_datetime(start_year_str + '-09-30').tz_localize('UTC')
 start_loc = datetime(start_year, 10, 1).replace(tzinfo=UTC)
 mask_date = datetime(start_year, 10, 2).replace(tzinfo=UTC)
 
-dates = pd.date_range('10/01/' + start_year_str, '02/06/' + water_year_str)
+dates = pd.date_range('10/01/' + start_year_str, '09/30/' + water_year_str)
 
 spin_range = pd.date_range('07/03/' + start_year_str, '09/30/' + start_year_str)
 
@@ -140,9 +153,6 @@ date_range = pd.date_range(start=df.index.min(), end=df.index.max(), freq='h')
 # Find the missing dates
 missing_dates = date_range[~date_range.isin(df.index)]
 
-# Print the missing dates
-# print(missing_dates)
-
 # Reindex the data DataFrame with the missing dates
 # Concatenate the original DataFrame with a DataFrame containing the missing dates
 new_df = pd.concat([df, pd.DataFrame(index=missing_dates)], axis=0)
@@ -167,10 +177,6 @@ df['airtemp'] = (df['airtemp'] - 32) * 5.0/9.0
 # Convert precipitation to mm
 df['accppt'] = df['accppt'] * 25.4
 
-## WARNING THIS IS A MODIFICATION TO THE SNOTEL DATA
-# df['accppt'] = df['accppt']*1.2
-# df['airtemp'] = df['airtemp'] - 1.262 # adjusting to hemis from wells creek
-
 # Convert from geodataframe to dataframe
 df = pd.DataFrame(df)
 
@@ -183,8 +189,6 @@ df = pd.DataFrame(df)
 df.interpolate(inplace=True)
 
 # Seperate the data into two dataframes, before and after October 1
-# spinstart = pd.to_datetime('2014-07-03').tz_localize('UTC')
-# spinend = pd.to_datetime('2014-09-30').tz_localize('UTC')
 spinup = df.loc[spinstart:spinend].copy()
 data = df.loc[start_loc:]
 
@@ -210,8 +214,6 @@ data.drop(columns=['accppt'], inplace=True)
 
 # %% [markdown]
 # ## Generate SW from MetSim
-
-# %%
 # Create empty dataset
 shape = (len(dates), 1, 1, )
 dims = ('time', 'lat', 'lon', )
@@ -238,10 +240,6 @@ tmin_vals = data['airtemp'].resample('D').min()
 
 # Calculate the daily precipitation values
 prec_vals = data['pptrate'].resample('D').sum()
-
-# Interpolate the temperature values to fill in any missing days
-# tmax_vals = tmax_vals.interpolate(method='linear')
-# tmin_vals = tmin_vals.interpolate(method='linear')
 
 met_data['prec'].values[:, 0, 0] = prec_vals
 
@@ -296,8 +294,6 @@ state['t_min'].values[:, 0, 0] = tmin_vals
 state['t_max'].values[:, 0, 0] = tmax_vals
 state.to_netcdf('./input/rc_state.nc')
 
-# %%
-# dates = pd.date_range('10/01/2014', '09/30/2015')
 params = {
     'time_step'    : "60",       
     'start'        : dates[0],
@@ -367,9 +363,6 @@ data['SWRadAtm'] = out_df['shortwave']
 # Generate longwave radiation
 data['LWRadAtm'] = lw_clr.dilleyobrien1998(data['airtemp'], data['rh'])
 
-# Can alternatively use the MetSim LW radiation
-# data['LWRadAtm'] = out_df['longwave']
-
 # Set wind to 2 m/s
 data['windspd'] = 2
 
@@ -427,7 +420,3 @@ dsx.to_netcdf(out_path+out_name+'.nc',
                                         {'dtype' : 'float64',
                                          'units' : 'hours since 1990-01-01 00:00:00',
                                          'calendar' : 'standard'}})
-
-
-
-# %%
